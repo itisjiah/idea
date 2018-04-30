@@ -1,0 +1,99 @@
+
+$primaryColour: #ed7717;
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+header{
+	background-color: $primaryColour;
+}
+#topNav{
+	border-bottom: 1px solid #ed7717;
+	background-color: $primaryColour;
+	display: flex;
+	padding: 10px;
+	width: 100vw;
+	#lines{
+		.fa-bars{
+			font-size:50px;
+		}
+	}
+}
+
+
+.menu {
+	display: none;
+	width: 100vw;
+	height: 88vh;
+	background-color: $primaryColour;
+	padding: 0;
+	margin: 0;
+	overflow:hidden;
+	ul {
+		display: block;
+		text-decoration: none;
+		margin: 36px;
+		list-style: none;
+		li {
+			text-decoration: none;
+			padding-bottom: 14px;
+
+			a, .tea-btn{
+				display: block;
+				padding-top:16px;
+				font-size:34px;
+				text-decoration: none;
+				color: black;
+				letter-spacing: 11px;
+				border-bottom: 1px solid;
+				border: none;
+				font-family: 'Raleway', sans-serif;
+				background-color: $primaryColour;
+			}
+
+			.tea-btn {
+				li {
+					list-style: none;
+					
+				}
+				.fa-chevron-down{
+		            transition: transform 0.3s linear;
+		            transform-origin: middle center center;
+				}
+			
+				.rotate180{
+					transform: rotate(-180deg);
+					
+				}
+
+			}
+	
+
+			
+			.tea-container {
+				display:none;
+				height: 10vh;
+				
+				a{
+
+					font-size:24px;
+					letter-spacing:0;
+					padding-left:26px;
+					padding-bottom:0;
+					padding-top:4px;
+
+					
+				}
+			  
+			}
+
+			
+		}
+	}
+
+	
+}
+
